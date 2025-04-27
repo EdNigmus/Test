@@ -1,3 +1,4 @@
+# Afficher 2 variables. La variable "nom" et la variable "age"
 nom = "Philippe"
 age = 25
 print (f"Bonjour, {nom}! Tu as {age} ans.")
