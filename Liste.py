@@ -5,3 +5,6 @@ numb_lst = [1, 2, 3.52, 4]
 str_lst = ["Laurent", "Avion", "Salade"]
 bol_lst = [True, False]
 mixte_lst = [52, "texte", True, 3.14159]
+
+# Affiche une liste
+print (numb_lst)
