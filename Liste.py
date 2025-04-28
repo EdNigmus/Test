@@ -8,3 +8,10 @@ mixte_lst = [52, "texte", True, 3.14159]
 
 # Affiche une liste
 print (numb_lst)
+print()
+
+# Accéder et afficher un élément d'une liste 
+print(mixte_lst[3]) # affichera "3.14159"
+print(mixte_lst[0]) # affichera le 1er élément de la liste, soit "52"
+print(str_lst[-1]) # affichera le dernier élément de la liste
+
