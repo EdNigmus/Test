@@ -21,5 +21,9 @@ print(mixte_lst[3]) # affichera "3.14159"
 print(mixte_lst[0]) # affichera le 1er élément de la liste, soit "52"
 print(str_lst[-1]) # affichera le dernier élément de la liste, ici "Salade"
 
-
+# Modifier un élément de la liste
+# ici dans la liste contenue dans la variable "str_lst" à l'index 0 qui est le 1er élément, je le remplace par la string "Béatrice"
+# L'index 0 est "Laurent" qui sera donc remplacé par "Béatrice"
+str_lst[0] = "Béatrice" 
+print(str_lst)
 
