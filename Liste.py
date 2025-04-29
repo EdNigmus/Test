@@ -62,6 +62,13 @@ ma_liste.pop(7)
 print(ma_liste, "\n")
 # On peut retourné l'élément supprimé dans une variable
 print("Retourné l'élément supprimé")
-el_suppr = ma_liste.pop(0)
+el_suppr = ma_liste.pop(0) # ici on stock l'élément supprimé dans la variable "el_suppr"
 print(el_suppr, "<- élément supprimé")
 print(ma_liste, "\n")
+
+# VERIFIER la présence d'un élément
+# Avec "in" il est possible de vérifier si l'élément est présent dans une liste donnée
+print("Vérifier la présence d'élément dans la liste avec l'instruction 'in'")
+print(ma_liste)
+print(2 in ma_liste, "<-- 2 est bien dans la liste") # affichera un boléen, True ou False si l'élément est présent ou non
+print(5 in ma_liste, "<-- 5 n'est pas dans la liste","\n")  
