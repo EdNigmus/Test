@@ -72,3 +72,10 @@ print("Vérifier la présence d'élément dans la liste avec l'instruction 'in'"
 print(ma_liste)
 print(2 in ma_liste, "<-- 2 est bien dans la liste") # affichera un boléen, True ou False si l'élément est présent ou non
 print(5 in ma_liste, "<-- 5 n'est pas dans la liste","\n")  
+
+# Parcourir une liste avec la boucle "for"
+print("Parcourir une liste avec l'instruction 'for, in' ")
+lst_elements = ["toto", "12", "fusée", "rubikcube", "3.256", True]
+for element in lst_elements:
+    print(element)
+print()
