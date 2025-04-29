@@ -47,3 +47,21 @@ print(Tarte_pommes,"\n")
 print("Remplacer un élément par un autre")
 Tarte_pommes[1] = "oeuf" # l'élément "oeuf" remplacera l'élément à l'indice 1 de la liste
 print(Tarte_pommes,"\n")
+
+# SUPPRIMER des éléments 
+# Méthode "remove()" supprime la première occurence d'un élément spécifique
+print("Méthode 'remove()' Supprimer un élément de la liste")
+ma_liste = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(ma_liste)
+ma_liste.remove(5) # supprime l'élément 5 dans la liste, qui se trouve être l'indice 4
+print(ma_liste, "\n")
+
+# Méthode "pop()" supprime un élément à un indice donné
+print("Méthode 'pop()' supprime un élément de la liste à un indice donné")
+ma_liste.pop(7)
+print(ma_liste, "\n")
+# On peut retourné l'élément supprimé dans une variable
+print("Retourné l'élément supprimé")
+el_suppr = ma_liste.pop(0)
+print(el_suppr, "<- élément supprimé")
+print(ma_liste, "\n")
