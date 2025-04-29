@@ -75,7 +75,8 @@ print(5 in ma_liste, "<-- 5 n'est pas dans la liste","\n")
 
 # Parcourir une liste avec la boucle "for"
 print("Parcourir une liste avec l'instruction 'for, in' ")
-lst_elements = ["toto", "12", "fusée", "rubikcube", "3.256", True]
+print("Dans la liste il y a :")
+lst_elements = ["toto", "12", "fusée", "rubikcube", "3.256"]
 for element in lst_elements:
-    print(element)
+    print("-", element)
 print()
