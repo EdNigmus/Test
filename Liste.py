@@ -8,7 +8,7 @@
 # CREER une liste
 # La liste ou tableau dans d'autre langage, est stockée dans une variable. Elle est placée en tre crochets.
 numb_lst = [1, 2, 3.52, 4]
-str_lst = ["Laurent", "Avion", "Salade"]
+str_lst = ["Laurent", "Ski", "Salade"]
 bol_lst = [True, False]
 mixte_lst = [52, "texte", True, 3.14159]
 
@@ -27,7 +27,7 @@ print(str_lst[-1],"\n") # affichera le dernier élément de la liste, ici "Salad
 # ici dans la liste contenue dans la variable "str_lst" à l'index 0 qui est le 1er élément, je le remplace par la string "Béatrice"
 # L'index 0 est "Laurent" qui sera donc remplacé par "Béatrice"
 print("Modifier une élément de la liste 'str_lst'")
-str_lst[0] = "Béatrice" 
+str_lst[0] = "TARA" 
 print(str_lst,"\n")
 
 # AJOUTER "append()" des éléments à une liste existante
@@ -104,3 +104,31 @@ ordis = ["PC", "Apple", "Tél Portable"]
 print("liste 2 : ", ordis)
 sysordi = systemes + ordis
 print("Concaténation des 2 listes :", sysordi, "\n")
+
+# TRIER une liste
+## par ordre croissant
+print("Trier une liste numérique par ordre croissant")
+nbr_list = [12, 56, 1, 1025, 59, 666]
+print(nbr_list)
+nbr_list.sort()
+print("Liste triée : ", nbr_list, "\n")
+##
+print("Trier une liste de chaines de caractères par ordre alphabétique")
+print("- Liste de base    : ", str_lst)
+str_lst.append("RIO DE JANEIRO")
+str_lst.insert(4, "Concaténation") 
+print("- Ajout d'éléments : ", str_lst)
+str_lst.sort() # méthode pour trier, ici par ordre alphabétique
+print("- Liste triée      : ", str_lst, "\n")
+## La méthode sort() avec en paramètre 'reverse=True' trira par ordre décroissant
+print("Trier la liste par ordre décroissant")
+nbr_list.sort(reverse=True)
+print(nbr_list, "\n") 
+## La méthpde sort() avec le paramètre 'key=len' trie les mots en fonction de leur longueur
+str_lst.sort(key=len)
+print("Liste triée par la taille des éléments")
+print(str_lst, "\n")
+
+
+
+
