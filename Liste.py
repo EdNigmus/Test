@@ -41,3 +41,9 @@ print(Tarte_pommes,"\n")
 print("Méthode 'insert()', ajoute des éléments à un indice spécifique dans la liste")
 Tarte_pommes.insert(1, "farine") # on aurait pu aussi utiliser la méthode append() car on ajouter un indice en fin de liste
 print(Tarte_pommes,"\n")
+
+# REMPLACER un élément : Une autre façon d'insérer un élément dans une liste
+# ATTENTION car ici vous remplacer un élément. Vous ne pouvez pas ajouter un élément avec cette façon
+print("Remplacer un élément par un autre")
+Tarte_pommes[1] = "oeuf" # l'élément "oeuf" remplacera l'élément à l'indice 1 de la liste
+print(Tarte_pommes,"\n")
