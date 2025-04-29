@@ -1,5 +1,6 @@
 # Chatgpt : les listes en python
 # ==============================
+# https://python.doctor/page-apprendre-listes-list-tableaux-tableaux-liste-array-python-cours-debutant
 
 # En Python, les listes sont des structures de données ordonnées, modifiables (mutables) et hétérogènes (elles peuvent
 # contenir diffrents types d’objets). Elles sont très utilisées pour stocker et manipuler des ensembles de données.
@@ -73,10 +74,24 @@ print(ma_liste)
 print(2 in ma_liste, "<-- 2 est bien dans la liste") # affichera un boléen, True ou False si l'élément est présent ou non
 print(5 in ma_liste, "<-- 5 n'est pas dans la liste","\n")  
 
-# Parcourir une liste avec la boucle "for"
+# PARCOURIR une liste avec la boucle "for"
 print("Parcourir une liste avec l'instruction 'for, in' ")
 print("Dans la liste il y a :")
 lst_elements = ["toto", "12", "fusée", "rubikcube", "3.256"]
 for element in lst_elements:
     print("-", element)
 print()
+
+# ------------------------------------------------------------------------
+# QUELQUES OPERATIONS SUPPLEMENTAIRES
+#-------------------------------------------------------------------------
+
+# RETOURNER et AFFICHER la taille de la liste, sous-entendu le nombre d'élément quelle contient
+# La méthode utilisée pour ça est "len()"
+print("Retourner et Afficher la taille d'une liste d'éléments")
+print(lst_elements)
+# la méthode len() prends en paramètre la variable "lst_elements" 
+print("Nombre d'éléments : ", len(lst_elements))
+# Stocker ce que retourne la méthode len() dans une variable puis afficher le résultat
+nbrElelIST = len(lst_elements)
+print(nbrElelIST, "\n")
