@@ -95,3 +95,12 @@ print("Nombre d'éléments : ", len(lst_elements))
 # Stocker ce que retourne la méthode len() dans une variable puis afficher le résultat
 nbrElelIST = len(lst_elements)
 print(nbrElelIST, "\n")
+
+# CONCATENER des listes
+print("Concaténation de pluseieurs listes")
+systemes = ["Windows", "Linux", "MacOS", "Android"]
+print ("liste 1 : ", systemes)
+ordis = ["PC", "Apple", "Tél Portable"] 
+print("liste 2 : ", ordis)
+sysordi = systemes + ordis
+print("Concaténation des 2 listes :", sysordi, "\n")
