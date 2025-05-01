@@ -18,5 +18,27 @@ Rassurez-vous, ici pas de python rocheux pour les personnes ayant le vertige ou 
 Le fichier "helloWorld.py" et "Affichage.py" sont plutôt des tests à contrario de "Liste.py" qui lui traite des listes en Python, ou tableaux pour d'autres langages.
 
 - Les **`Listes`** 
+  - Créer une liste
+  - Afficher une liste
+  - Accèder à un élément d'une liste
+  - Modifier un élément d'une liste
+  - Ajouter un élément à une liste
+    - Ajouter à la fin d'une liste   : Métode `append()`
+    - Ajouter à un indice spécifique : Méthode `insert()`
+  - Remplacer un élément d'une liste
+  - Supprimer un élément d'une liste
+    - Supprime la première occurence        : Méthode `remove()`
+    - Supprime un élément à un indice donné : Méthode `pop()`
+  - Vérifier si un élément est présent dans la liste
+    - Utiliser l'instruction **in**
+  - Parcourir une liste 
+    -  Utiliser une boucle **for/in**
+  - Afficher le nombre d'élément dans une liste
+    - Taille d'un liste : Méthode `len()`
+  - Concaténer des listes
+  - Trier les éléments d'une liste
+    -  Par ordre croissant : Méthode `sort()`
+    -  Par ordre décroissant avec le paramètre : *reverse=True*
+    -  Par ordre de taille des éléments avec le paramètre  : *key=len*
   
   https://python.doctor/page-apprendre-listes-list-tableaux-tableaux-liste-array-python-cours-debutant
