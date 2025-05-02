@@ -14,7 +14,7 @@ Rassurez-vous, ici pas de python rocheux pour les personnes ayant le vertige ou 
 - https://www.it-connect.fr/?s=langage+python
 
 
-Le fichier "helloWorld.py" et "Affichage.py" sont plutôt des tests à contrario de "Liste.py" qui lui traite des listes en Python, ou tableaux pour d'autres langages.
+Les listes (list / array dans d'autre langage) en python sont une variable dans laquelle on peut mettre plusieurs variables. Elles sont indexés, car on accède aux éléments contenus dans la liste par un index qui commence à [0].
 
 - Les **`Listes`** 
   - Créer une liste
