@@ -16,20 +16,50 @@ Dans d'autre langages on parlerait de tableau associatif.
   - avec l'instruction **del**
   - avec la méthode `pop()`
 - PARCOURIR un dictionnaire
-  - Utilisation de la boucle **for-in**
-  - 
-  - 
-  - 
-  - 
-  - Quelques méthodes courantes des dictionnaires :
+  - Création liste "Acteurs" 
+  - Ajout de la liste dans le dictionnaire "film" à la clé "acteurs"
+  - Utilisation de la boucle **for-in** pour passer sur chaque item clé/valeur du dictionnaire
+  - Affichage 
+  - Affichage d'une élément de la liste à la clé "acteurs" dans le dictionnaire "film"
+  
+  #### METHODE Courantes
+  ---
+  - La méthode `keys()` renvoi les clés du dictionnaire
+  
+    ``` 
+      mon_dico {"A":"1", "B":"2", "C":"3"}
+      print(mon_dico.keyS()) 
 
-    keys() : Retourne toutes les clés.
+      # retournera : dict_keys(['A', 'B', 'C'])
+    ```
+  - La méthode `values()` renvoi les valeurs du dictionnaire
+  
+    ```
+      mon_dico {"A":"1", "B":"2", "C":"3"}
+      print(mon_dico.values()) 
 
-    values() : Retourne toutes les valeurs.
+      # retournera : dict_values(['1', '2', '3'])
+    ```
 
-    items() : Retourne une liste de tuples (clé, valeur).
+  - La méthode `items()` renvoi une liste de tuples (clé,valeur)
 
-    get() : Permet d’obtenir une valeur sans provoquer d’erreur si la clé n'existe pas.
+    ```
+      mon_dico {"A":"1", "B":"2", "C":"3"}
+      print(mon_dico.items()) 
+
+      # retournera : dict_items([('A','1'), ('B','2'), ('C','3')])
+    ```
+
+  - La méthode `get()` permet de récupérer une valeur sans générer d'erreur si la clé n'existe pas.
+    Elle renvoie **None** ou une valeur par défaut si précisée.
+
+    ```
+      mon_dico {"A":"1", "B":"2", "C":"3"}
+      print(mon_dico.get("B","Cette clé n'existe pas"))
+
+      # retournera : 2, car la clé existe. Sinon elle afficherait "Cette clé n'existe pas"
+    ```
+     
 
 
 

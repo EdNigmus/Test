@@ -58,8 +58,8 @@ print("Nouveau dictionnaire             -> ", mon_dico, "\n")
 # PARCOURIR un dictionnaire
 # -------------------------------------------------
 # On va pouvoir parcourir un dictionnaire grace à une boucle "for/in"
-print()
-films = {
+print("PARCOURRIR et afficher le contenu du dictionnaire 'film'")
+film = {
     "titre"  : "Rocky",
     "annee"  : 1976,
     "spport" : "DVD",
@@ -68,16 +68,36 @@ films = {
     "realisateur" : "John G.Avildsen",
     "distributeur" : "United Artists"    
 }
-
+# Création liste "Acteurs"
 Acteurs = ['Sylvester Stallone', 'Talia Shire', 'Burt Young', 'Carl Weathers']  
-films["acteurs"] = Acteurs
-
-for clé, valeur in films.items():
+# on ajoute le contenu de la liste "Acteurs" dans le dictionnaire "films" à la clé "acteurs"
+film["acteurs"] = Acteurs
+# dans la boucle on dit, que pour chaque clé et valeur dans la liste de tuples(clé,valeur)
+# on affiche la clé : valeur
+for clé, valeur in film.items():
     print(clé, ":", valeur)
+print()   
+print("Affiche l'élément [0] à la clé ['acteurs'] dans le dictionnaire 'films'")
+# Affiche l'élément [1] à la clé ["acteur"] dans le dictionnaire "film"     
+print(film["acteurs"][1], "\n")
+
+#--------------------------------------------------------------
+#                       METHODES COURANTES
+#--------------------------------------------------------------
     
-print("\n", films["acteurs"][0], "\n")
-
-
-
-    
+print("AUTRES METHODES")
+print("---------------")
+# ne retourne que les clés du dictionnaires "film"
+print("- La méthode keys()")
+print(" ", film.keys(), "\n")
+# ne retourne que les valeurs du dictionnaires "film"
+print("- La méthode values()")
+print(" ", film.values(), "\n")
+# retourne une liste de tuple (clé,valeur)
+print("- La méthode items()")
+print(" ", film.items(), "\n")
+# ici le 1er paramètre "acteurs" qui est une clé du dictionnaire "film" retournera sa valeur.
+# Si se premier paramètrre n'existe pas, alors c'est le 2iè paramètre qui sera retourné "Inconnue".
+print("- La méthode get()")
+print(" ", film.get("acteurs","Inconnue"), "\n")
 
