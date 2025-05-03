@@ -1,5 +1,6 @@
 # Langage : PYTHON
 
+> ## Les DICTIONNAIRES
 Les dictionnaires en Python sont des structures de données qui permettent de stocker des paires de clés et de valeurs. Chaque élément d'un dictionnaire est composé d'une clé unique et d'une valeur associée à cette clé. Ils sont particulièrement utiles lorsqu'on a besoin de récupérer des données rapidement à l'aide d'une clé, plutôt qu'en utilisant un indice comme dans les listes.
 
 Dans d'autre langages on parlerait de tableau associatif.

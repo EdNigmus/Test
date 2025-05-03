@@ -1,12 +1,16 @@
 # Langage : PYTHON
 
+## Les LISTES
+https://python.doctor/page-apprendre-listes-list-tableaux-tableaux-liste-array-python-cours-debutant
+
 Quelques fichiers avec des instructions en Python pour dégrossir la bête...
 Rassurez-vous, ici pas de python rocheux pour les personnes ayant le vertige ou de serpent... :wink:
 
   > A ce propos qui est plus fort que le Boa ... ? 
   >
   > C'est Rocky ... parce qu'il bat le BOA.
-  > Pour les non cinéfil "ROCKY BALBOA", mais ça ne vous dit peut-être rien, ce n'est pas très > connu ... :wink:
+  > Pour les non cinéfil "ROCKY BALBOA", mais ça ne vous dit peut-être rien, ce n'est   pas très connu ... :wink:
+
 
 - https://docs.python.org/fr/3/tutorial/index.html
 - https://blog.stephane-robert.info/docs/developper/programmation/python/
