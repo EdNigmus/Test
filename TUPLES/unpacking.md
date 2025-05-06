@@ -11,7 +11,7 @@ https://geekflare.com/fr/python-unpacking-operators/
 
       Retournera : phil 56 True
     ```
-    ![image](unpacking4.jpg)
+    ![image](imgs\unpacking3.jpg)
 
 > DEBALLER AVEC L'OPERATEUR *
 
